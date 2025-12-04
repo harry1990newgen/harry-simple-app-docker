@@ -13,5 +13,6 @@ my-web/
 
 #🛠️ Build Docker Image
 Run this command in your project directory:
+```
 docker build -t devops-web .
-
+```
