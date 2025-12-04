@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  html_app2:
+    image: html_app_2:latest
+    container_name: html-app-bvol
+    ports:
+      - "80:80"
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html
+    restart: always
+
+
