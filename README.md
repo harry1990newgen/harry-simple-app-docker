@@ -28,8 +28,6 @@ docker run -d -p 80:80 --name devops-site devops-web
 Open your VM public IP in a browser:
 ```
 http://YOUR_VM_PUBLIC_IP
-<img width="942" height="506" alt="image" src="https://github.com/user-attachments/assets/fad2538e-ad49-4566-a201-ca1da8d1a74c" />
-
 
 ```
 
