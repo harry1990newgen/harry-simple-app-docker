@@ -9,7 +9,7 @@ my-web/
 ├── Dockerfile
 ├── nginx.conf
 └── index.html
-```
+
 
 #🛠️ Build Docker Image
 Run this command in your project directory:
