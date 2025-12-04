@@ -41,6 +41,15 @@ html_app_2:latest                         988ce25587db       52.8MB             
 Expose port 80 to access from the outside world:
 ```
 docker run -d -p 80:80 --name html_app_2 html_app_2:latest
+
+ 1198  vi docker-compose.yml
+ 1199  docker compose down
+ 1200  docker ps -a
+ 1201  docker rm -f $(docker ps -aq)
+ 1202  docker compose down
+ 1203  docker compose up -d
+
+
 ```
 # 🌍 Access From Browser
 
